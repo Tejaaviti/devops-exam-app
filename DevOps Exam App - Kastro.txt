@@ -219,7 +219,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/KastroVKiran/devops-exam-app.git', 
+                git url: git 'https://github.com/Tejaaviti/devops-exam-app ', 
                     branch: 'master'
             }
         }
